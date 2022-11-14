@@ -4,6 +4,7 @@ body {
     color:rgb(255, 255, 255);
     padding: 0;
     margin: 0;
+    font-size: 150%;
 }
 
 h1 {
@@ -40,8 +41,36 @@ footer {
 
 section {
     padding: 20px;
+    display: flex;
+    color: white;
+    flex-direction: row;
 }
 
 div {
     display: inline;
+    background-color: rgba(0, 0, 0, 0.266);
+    border-radius: 5px;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+fakelink {
+    color: gray;
+    font-;
 }
