@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(32, 33, 38);
     padding: 0;
     margin: 0;
 
@@ -17,7 +17,7 @@ button {
 header {
     display:flex;
     flex-direction: column;
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(21, 21, 23);
     padding: 10px;
 }
 
