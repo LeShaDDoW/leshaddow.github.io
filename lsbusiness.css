@@ -1,5 +1,47 @@
-header h1, h2, Logo {
-    margin: 0px;
-    font-family: 'Bebas Neue', cursive;
-    color:rgb(215, 75, 67)
-}
+/* Add styles for top bar */
+
+        /* Make top bar full width and fixed to top of window */
+        .top-bar {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+        /* Add padding to top of body to push content down below top bar */
+        body {
+            padding-top: 60px; /* Adjust value to match height of top bar */
+        }
+
+		.top-bar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: rgb(16, 16, 16);
+			color: #fff;
+			padding: 10px;
+            font-size: 20px;
+		}
+		.top-bar a {
+			color: #fff;
+			text-decoration: none;
+			margin-right: 20px;
+		}
+		.top-bar a:hover {
+			color: #ccc;
+		}
+		.top-bar .logo {
+			font-size: 30px;
+            color: rgb(162, 162, 227);
+            
+		}
+        .logo {
+            font-family: 'Bebas Neue', sans-serif;
+            color:rgb(120, 120, 187);
+        }
+        body {
+	        background: linear-gradient(to bottom left, rgb(56, 56, 56), #000000);
+            color: white;
+	        background-attachment: fixed;
+        }
