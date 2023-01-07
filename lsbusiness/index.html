@@ -1,30 +1,85 @@
 <!DOCTYPE html>
 <html>
+
+
+
 <head>
 	<title>LSBusiness Official</title>
     <link href='https://fonts.googleapis.com/css?family=Bebas+Neue' rel='stylesheet'>
     <link rel="stylesheet" href="/main.css">
     <link rel="stylesheet" href="/lsbusiness.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 0, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+    </script>
+      
+      
 </head>
 
 
+
 <body>
-	<!-- Add top bar with logo and links -->
+    
 	<div class="top-bar">
 		<a href="#" class="logo">LSBusiness</a>
 		<div>
 			<a href="/">Home</a>
-			<a href="#">About</a>
+			<a href="#lsb-about">About</a>
 			<a href="#">Contact</a>
 		</div>
 	</div>
 
-	<!-- Add content for website -->
-	<h1 class="logo">Welcome to LSBusiness</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare urna at eros suscipit, eu vestibulum est volutpat. 
-        Donec at congue nisi. Aliquam porta leo quam, a vulputate erat tempus sed. Aenean auctor urna velit, vel tincidunt leo suscipit eu. 
-        Sed semper laoreet malesuada. Nullam sit amet ligula et est aliquet aliquet in id est. Mauris placerat tellus eu metus tincidunt, 
-        vel posuere nibh elementum. Aliquam erat volutpat. Aenean rhoncus ipsum est, at ultricies diam ornare at. </p>
+
+    <div class="topDiv">
+        <br><br>
+        <h1 class="logo">Welcome to LSBusiness</h1>
+
+        <img src="/files/images/googtube-main.png" alt="GoogTube" class="mainpageImage">
+        <img src="/files/images/twotch.png" alt="Twotch" class="mainpageImage">
+        <br> <br>
+        We have made <strong>fantastic</strong> applications and others like these!
+        GoogTube and Twotch!
+        <br><br><br><br><br>
+    </div>
+	
+    <div id="lsb-about">
+        <h2>ABOUT</h2>
+
+        <p>
+            We are a friendly and not suspicious corporation that does NOT have any secrets, 
+            or secret laboratories and facilities with observation chambers to keep an eye on our test subjects 
+            we use to experiment on and research for an advanced AI technology that could theoratically take over and destroy our universe 
+            that has already killed most of our employees and causes so much panic that we have to evacuate the entire facility 
+            but one of our test subjects is stuck in a chamber and is the most advanced one from our universe 
+            because this test subject is controlled by a human which we use to take research on to figure out how smart and good the humans are 
+            why we have made a special arrangement of test chambers just for this one specimen, 
+            because we care about our customers, employees and our universe! We try to make new things to help us out and not any stuff!
+        </p>
+    </div>
+    
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -36,16 +91,18 @@
         vel posuere nibh elementum. Aliquam erat volutpat. Aenean rhoncus ipsum est, at ultricies diam ornare at. </p>
 
 
+
         <footer>
             <section>
                 <div>
-                    <logo>© Leshaddow2 2022 - 2022</logo> <br>
-                    <logo>© LSBusiness Inc. 2022 - 2022</logo> <br>
-                    <logo>© ℗ Soos GMBH. AB™®</logo>
+                    <logo>© Leshaddow2 2022 - 2023</logo> <br>
+                    <logo>© LSBusiness Inc. 2022 - 2023</logo> <br>
+                    <logo>© ℗ Soos GMBH. AB™® 2022 - 2023</logo>
                 </div>
     
+
                 <div>
-                    <strong> LeShaDDoW2 </strong>
+                    <strong> LeShaDDoW2 </strong> <br> <br>
                     <a href="/">Main Page</a>
                 </div>
     

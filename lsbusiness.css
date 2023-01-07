@@ -1,4 +1,4 @@
-/* Add styles for top bar */
+
 
         /* Make top bar full width and fixed to top of window */
         .top-bar {
@@ -7,11 +7,6 @@
             top: 0;
             left: 0;
             right: 0;
-        }
-
-        /* Add padding to top of body to push content down below top bar */
-        body {
-            padding-top: 60px; /* Adjust value to match height of top bar */
         }
 
 		.top-bar {
@@ -41,7 +36,21 @@
             color:rgb(120, 120, 187);
         }
         body {
-	        background: linear-gradient(to bottom left, rgb(56, 56, 56), #000000);
+	        background: rgb(19, 19, 19);
             color: white;
 	        background-attachment: fixed;
+        }
+        .mainpageImage {
+            width: 40%;
+            margin: 0 3%;
+        }
+        .topDiv {
+            background: linear-gradient(to bottom left, rgb(56, 56, 56), #000000);
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        #lsb-about {
+            width: 60%;
+            margin: auto;
         }
