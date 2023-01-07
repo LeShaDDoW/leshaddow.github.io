@@ -50,7 +50,10 @@
         html {
             scroll-behavior: smooth;
         }
-        #lsb-about {
+        .lsbdiv {
             width: 60%;
             margin: auto;
+        }
+        leftText {
+            text-align: left;
         }
